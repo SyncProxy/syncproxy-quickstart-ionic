@@ -22,9 +22,11 @@ Replace *connectorType* and *dbName* attributes with the targetted embedded data
  3. Recompile and relaunch your app
 
 The Sync button should now appear on top of the application:
+
 ![sync button](https://raw.githubusercontent.com/hmellanger/syncproxy-quickstart-ionic/master/sync-icon.png)
 
 and when sync is launched, the login prompt should popup:
+
 ![login prompt](https://raw.githubusercontent.com/hmellanger/syncproxy-quickstart-ionic/master/login-prompt.png)
 
 
