@@ -7,7 +7,7 @@ The **SyncProxy** client targets hybrid mobile applications (Ionic, Phonegap, Co
 The following tutorial applies to Ionic, but it should be relevant to any Cordova-based framework, too
 
 ## Before starting
-Go to www.syncproxy.com, register and log-in as a proxy administrator (it's free !), then create and configure the proxy to synchronize with your backend database.
+Go to www.syncproxy.com, register and log-in as a proxy administrator (it's free !), then create and configure your proxy to synchronize with your backend database.
 
 ## How to upgrade an existing Ionic application for reactive sync
 To get your existing Ionic application ready with the **SyncProxy** client:
@@ -32,12 +32,21 @@ and when sync is launched, the login prompt should popup:
 
 You are now ready to sync !  Any changes made to your embedded database are sent in realtime to your backend database and *vice-versa*. When offline, all changes made are marked temporarily, and synched when going back online, bidirectionnally.
 
+## How to test data sync
+To facilitate the testing, we recommend beginning with the IndexedDB connector, and run the app within Chrome or Firefox. Using browser's developer's tools, you will be able to verify that the database has been created or updated:
+
+> Launch the app within your browser, and press F12 to open the developer's tools. You will find the created IndexedDB database in the "Application" or "Storage" section of your browse's dev tools.
+
+![dev tools](https://raw.githubusercontent.com/hmellanger/syncproxy-quickstart-ionic/master/dev-tools.png)
+
 ## How to setup a new Ionic application
 In this section, you will learn how to create a new Ionic application and start synching your data with your backend database within minutes.
 
 To begin, setup the Ionic environment and create your first Ionic application as explained in the "Getting Started" section of [Ionic framework website](https://ionicframework.com/).
 
+Once your app is ready, simply follow the 3 easy steps described above to upgrade an existing Ionic app to get it ready to sync.
 
+The **SyncProxy** sync client will create the embedded database for you !  You won't need to worry about the tedious schema management (create tables, created columns, etc.), every upgrade update will applied automatically during the synchronization.
 
 ## Link
 To access SyncProxy administration to setup your sync proxy and connect to your database, go to www.syncproxy.com
