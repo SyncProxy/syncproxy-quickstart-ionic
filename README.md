@@ -9,7 +9,7 @@ To get your existing Ionic application ready with the **SyncProxy** client:
  1. Download the [**SyncProxy** client](https://github.com/hmellanger/syncproxy-client) and copy it into the /src/assets/ folder of your Ionic project.
  2. Add the followin line in the &lt;body&gt; section of your *index.html* file located in the */src/* folder of your Ionic project (replace *proxyId* attribute with the id allocated during the online creation of the proxy):
 ````html
-<script src="sync-client/sync-client.js" serverUrl="localhost" proxyID="kMrtc82xffw2ZrPf6"  connectorType="IndexedDB" dbName="your-client-db-name"></script>
+<script src="sync-client/sync-client.js" proxyID="kMrtc82xffw2ZrPf6" connectorType="IndexedDB" dbName="your-client-db-name"></script>
 ````
 
 ## How to create a new application
