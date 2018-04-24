@@ -21,10 +21,12 @@ Replace *connectorType* and *dbName* attributes with the targetted embedded data
   
  3. Recompile and relaunch your app
 
-The Sync button should have appeared on top of the application:
+The Sync button should now appear on top of the application:
+![sync button](https://raw.githubusercontent.com/hmellanger/syncproxy-quickstart-ionic/master/sync-icon.png)
+and when sync is launched, the login prompt should popup:
 
 
- You are now ready to sync !  Any changes made to your embedded database are sent in realtime to your backend database and *vice-versa*. When offline, all changes made are marked temporarily, and synched when going back online, bidirectionnally.
+You are now ready to sync !  Any changes made to your embedded database are sent in realtime to your backend database and *vice-versa*. When offline, all changes made are marked temporarily, and synched when going back online, bidirectionnally.
 
 ## How to setup a new Ionic application
 In this section, you will learn how to create a new Ionic application and start synching your data with your backend database within minutes.
