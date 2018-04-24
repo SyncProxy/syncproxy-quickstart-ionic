@@ -40,13 +40,16 @@ To facilitate the testing, we recommend beginning with the IndexedDB connector, 
 ![dev tools](https://raw.githubusercontent.com/hmellanger/syncproxy-quickstart-ionic/master/dev-tools.png)
 
 ## How to setup a new Ionic application
-In this section, you will learn how to create a new Ionic application and start synching your data with your backend database within minutes.
+You can litterally create a new Ionic application and start synching your data with your backend database within minutes !
 
-To begin, setup the Ionic environment and create your first Ionic application as explained in the "Getting Started" section of [Ionic framework website](https://ionicframework.com/).
+To begin with, setup the Ionic environment and create your first Ionic application as explained in the "Getting Started" section of [Ionic framework website](https://ionicframework.com/).
 
 Once your app is ready, simply follow the 3 easy steps described above to upgrade an existing Ionic app to get it ready to sync.
 
-The **SyncProxy** sync client will create the embedded database for you !  You won't need to worry about the tedious schema management (create tables, created columns, etc.), every upgrade update will applied automatically during the synchronization.
+And now it's your turn to play ! We recommend that you get familiar with Ionic development and with coding read/write access to the embedded database (starting with IndexedDB or WebSQL), you will find plenty of resources available online, and that is all that you need to create a powerful offline-first reactively synched application !
+
+## Database schema management
+The **SyncProxy** sync client will create the embedded database for you !  You won't need to worry about the tedious schema management (create tables, created columns, etc.). Every upgrade made to your backend database will apply to the embedded database during the synchronization.
 
 ## Link
 To access SyncProxy administration to setup your sync proxy and connect to your database, go to www.syncproxy.com
