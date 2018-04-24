@@ -52,4 +52,4 @@ And now it's your turn to play ! We recommend that you get familiar with Ionic d
 The **SyncProxy** sync client will create the embedded database for you !  You won't need to worry about the tedious schema management (create tables, created columns, etc.). Every upgrade made to your backend database will apply to the embedded database during the synchronization.
 
 ## Link
-To access **SyncProxy** administration to setup your sync proxy and connect to your database, go to www.syncproxy.com
+To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to www.syncproxy.com
