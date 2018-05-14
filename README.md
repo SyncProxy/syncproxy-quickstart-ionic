@@ -11,7 +11,7 @@ Go to www.syncproxy.com, register and log-in as a proxy administrator (it's free
 
 ## How to upgrade an existing Ionic application for SyncProxy reactive sync
 To get your existing Ionic application ready with the **SyncProxy** client:
- 1. Download the [**SyncProxy** client](https://github.com/hmellanger/syncproxy-client) and copy it into the */src/assets/* folder of your Ionic project.
+ 1. Download the [**SyncProxy** client](https://github.com/syncproxy/syncproxy-client) and copy it into the */src/assets/* folder of your Ionic project.
  2. Add the followin line in the &lt;body&gt; section of your *index.html* file located in the */src/* folder of your Ionic project (replace *proxyId* attribute with the id allocated during the online creation of the proxy):
 
 ````html
@@ -23,11 +23,11 @@ Replace *connectorType* and *dbName* attributes with the targetted embedded data
 
 The Sync button should now appear on top of the application:
 
-![sync button](https://raw.githubusercontent.com/hmellanger/syncproxy-quickstart-ionic/master/sync-icon.png)
+![sync button](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart-ionic/master/sync-icon.png)
 
 and when sync is launched, the login prompt should popup:
 
-![login prompt](https://raw.githubusercontent.com/hmellanger/syncproxy-quickstart-ionic/master/login-prompt.png)
+![login prompt](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart-ionic/master/login-prompt.png)
 
 
 You are now ready to sync !  Any changes made to your embedded database are sent in realtime to your backend database and *vice-versa*. When offline, all changes made are marked temporarily, and synched when going back online, bidirectionnally.
@@ -37,7 +37,7 @@ To facilitate the testing, we recommend beginning with the IndexedDB connector, 
 
 > Launch the app within your browser, and press F12 to open the developer's tools. You will find the created IndexedDB database in the "Application" or "Storage" section of your browse's dev tools.
 
-![dev tools](https://raw.githubusercontent.com/hmellanger/syncproxy-quickstart-ionic/master/dev-tools.png)
+![dev tools](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart-ionic/master/dev-tools.png)
 
 ## How to setup a new Ionic application
 You can litterally create a new Ionic application and start synching your data with your backend database within minutes !
