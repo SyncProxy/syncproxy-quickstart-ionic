@@ -11,7 +11,7 @@ Go to www.syncproxy.com, register and log-in as a proxy administrator (it's free
 
 ## How to upgrade an existing Ionic application for SyncProxy reactive sync
 To get your existing Ionic application ready with the **SyncProxy** client:
- 1. Download the [**SyncProxy** client](https://github.com/syncproxy/syncproxy-client) and copy it into the */src/assets/* folder of your Ionic project.
+ 1. Download the [**SyncProxy** client](https://github.com/syncproxy/sync-client) and copy it into the */src/assets/* folder of your Ionic project.
  2. Add the followin line in the &lt;body&gt; section of your *index.html* file located in the */src/* folder of your Ionic project (replace *proxyId* attribute with the id allocated during the online creation of the proxy):
 
 ````html
