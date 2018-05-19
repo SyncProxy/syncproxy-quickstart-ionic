@@ -42,7 +42,7 @@ To facilitate the testing, we recommend beginning with the IndexedDB connector, 
 ## How to setup a new Ionic application
 You can litterally create a new Ionic application and start synching your data with your backend database within minutes !
 
-To begin with, setup the Ionic environment and create your first Ionic application as explained in the "Getting Started" section of [Ionic framework website](https://ionicframework.com/).
+To begin with, setup the Ionic environment and create your first Ionic application as explained in the "Get Started" section of [Ionic framework website](https://ionicframework.com/).
 
 Once your app is ready, simply follow the 3 easy steps described above to upgrade an existing Ionic app to get it ready to sync.
 
