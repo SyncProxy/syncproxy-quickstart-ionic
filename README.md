@@ -1,13 +1,13 @@
 # SyncProxy quick start guide for Ionic
-This quick start tutorial will show you to how to setup an Ionic hybrid mobile application embedding its own database together with **SyncProxy** client. Used with online **SyncProxy** server (www.syncproxy.com), this is the quickest way to create applications that will synchronize bidirectionally, reactively in realtime with your backend database (MySQL, SQL Server, MongoDB...), and also work perfectly when offline. *Only with one line of code.*
+This quick start tutorial will show you to how to setup an Ionic hybrid mobile application embedding its own database together with **SyncProxy** client. Used with online **SyncProxy** server (https://www.syncproxy.com), this is the quickest way to create applications that will synchronize bidirectionally, reactively in realtime with your backend database (MySQL, SQL Server, MongoDB...), and also work perfectly when offline. *Only with one line of code.*
 
 ## Architecture
-The **SyncProxy** client targets hybrid mobile applications (Ionic, Phonegap, Cordova, Xamarin...) with an embedded database (IndexedDB, SQLite, WebSQL...) that provides offline capabilities. By adding the **SyncProxy** client to your main .html file **with one single line of code**, you will turn your offline app into a powerfull online application with bidirectionnal reactive (realtime) sync that will work perfectly with or without connection. You will not need develop any specialized webservices, since the **SyncProxy** server enables to define sync profiles directly online on www.syncproxy.com which acts as a gateway between your app and your backend database.
+The **SyncProxy** client targets hybrid mobile applications (Ionic, Phonegap, Cordova, Xamarin...) with an embedded database (IndexedDB, SQLite, WebSQL...) that provides offline capabilities. By adding the **SyncProxy** client to your main .html file **with one single line of code**, you will turn your offline app into a powerfull online application with bidirectionnal reactive (realtime) sync that will work perfectly with or without connection. You will not need develop any specialized webservices, since the **SyncProxy** server enables to define sync profiles directly online on https://www.syncproxy.com which acts as a gateway between your app and your backend database.
 
 The following tutorial applies to Ionic, but it should be relevant to any Cordova-based framework, too
 
 ## Before starting
-Go to www.syncproxy.com, register and log-in as a proxy administrator (it's free !), then create and configure your proxy to synchronize with your backend database.
+Go to https://www.syncproxy.com, register and log-in as a proxy administrator (it's free !), then create and configure your proxy to synchronize with your backend database.
 
 ## How to upgrade an existing Ionic application for SyncProxy reactive sync
 To get your existing Ionic application ready with the **SyncProxy** client:
@@ -52,4 +52,4 @@ And now it's your turn to play ! We recommend that you get familiar with Ionic d
 The **SyncProxy** sync client will create the embedded database for you !  You won't need to worry about the tedious schema management (create tables, created columns, etc.). Every upgrade made to your backend database will apply to the embedded database during the synchronization.
 
 ## Link
-To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to www.syncproxy.com
+To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to https://www.syncproxy.com
